@@ -1,2 +1,1 @@
-Ini adalah kumpulan bahasa PHP 
-- berbasis CLI
+Kumpulan Programming Language Syntax Dasar
