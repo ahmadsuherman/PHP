@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ini adalah file Form pada HTML</title>
+</head>
+<body>
+    <form action="">
+        <label for="username"> username : </label> <input type="text" id="username"> <br><br>
+        <label for="password"> password : </label> <input type="text" id="password"> <br><br>
+        <input type="radio" name="jenis_kelamin" id="laki_laki"> <label for="laki_laki">Laki Laki</label>
+        <input type="radio" name="jenis_kelamin" id="perempuan"> <label for="perempuan">Perempuan</label>
+            <br><br>
+        <!-- checkbox pada html -->
+        <input type="checkbox" name="keseharian" id="ngoding"> <label for="ngoding">Ngoding</label>
+        <input type="checkbox" name="keseharian" id="turu"> <label for="turu">Tidur</label>
+        <input type="checkbox" name="keseharian" id="jalan_jalan"> <label for="jalan_jalan">Berpergian</label>
+            <br><br>
+        <!-- textarea pada html -->
+        <textarea name="masukan_pesan_anda" id="" cols="30" rows="10"></textarea>
+            <br><br>
+        <!-- kita akan bikin dropdown atau options list negara -->
+        <select name="options_negara" id="negara">
+            <!-- <label for="negara">Silahkan pilih opsi negara anda : </label> -->
+            <option value="negara">Indonesia</option>
+            <option value="negara">Ukraina</option>
+            <option value="negara">Russia</option>
+            <option value="negara">Amerika</option>
+            <option value="negara">Bangladesh</option>
+        </select>
+            <br><br>
+        <!-- button sumbit sederhana pada html -->
+        <input type="submit" value="kirm">
+            <br><br>
+        <!-- bisa juga menggunakan button dengan tipe submit -->
+        <button type="submit">Send to admin!</button>
+    </form>
+</body>
+</html>
